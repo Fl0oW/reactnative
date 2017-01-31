@@ -10,3 +10,4 @@ const Header = () => {
 
 // Make a component available to other parts of the app
 // New comment
+// Another comment
