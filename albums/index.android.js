@@ -4,14 +4,16 @@
 // import is a new part in ES6 (new version of js)
 // only by importing can we reach out to other files
 import React from 'react';
-import { Text, AppRegistry } from 'react-native';
+import { AppRegistry } from 'react-native';
+import Header from './src/components/header';
 
 // Create a component (a js function that returns some amount of jsx)
-const App = () => {
+// we create 1 component per file usually
+const App = () => (
+  <Header headerText={'Albums'} />
+);
 
-//this is jsx
-  return(<Text>Some Text</Text>);
-};
 
 // Render it to the device
+// Only root component is registered with AppRegistry
 AppRegistry.registerComponent('albums', () => App);
