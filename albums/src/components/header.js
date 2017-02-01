@@ -1,3 +1,5 @@
+// This is a functional based component (displaying jsx)
+
 // Import libraries for making a component
 import React from 'react';
 import { Text, View } from 'react-native';
