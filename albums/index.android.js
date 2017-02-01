@@ -11,7 +11,7 @@ import AlbumList from './src/components/AlbumList';
 // Create a component (a js function that returns some amount of jsx)
 // we create 1 component per file usually
 const App = () => (
-  <View>
+  <View style={{ flex: 1 }}>
     <Header headerText={'Albums'} />
     <AlbumList />
   </View>
