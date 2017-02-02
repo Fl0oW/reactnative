@@ -8,6 +8,7 @@ import { Text, View } from 'react-native';
 // Passing props allows for re-configuring components on the fly
 
 // Make a component
+// Props are for parent->child communication
 const Header = (props) => {
 	// destructuring assignment eq to const textStyle = styles.textStyle
 	const { textStyle, viewStyle } = styles;
@@ -21,11 +22,11 @@ const Header = (props) => {
 
 const styles = {
 	viewStyle: {
-		backgroundColor: '#F9F9F9',
+		backgroundColor: '#fff',
 		justifyContent: 'center',
 		alignItems: 'center',
 		height: 60,
-		paddingTop: 15,
+		paddingTop: 5,
 		// Shadows don't work on Android
 		shadowColor: '#000',
 		shadowOffset: { width: 0, height: 5 },
