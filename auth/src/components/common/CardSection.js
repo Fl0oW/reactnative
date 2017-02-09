@@ -5,6 +5,7 @@ import { View } from 'react-native';
 // so const instead of class
 
 const CardSection = (props) => {
+	
 	return (
 		<View style={styles.containerStyle}>
 			{props.children}
